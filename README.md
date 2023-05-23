@@ -14,4 +14,4 @@ Here is a breakdown of the files and their purpose:
 
 5. terraform.tfvars: This file provides the values for the variables defined in variables.tf. It sets the specific values for the region, VPC name, and CIDR blocks for the subnets.
 
-In summary, this Terraform configuration sets up a VPC in AWS with multiple subnets, an internet gateway, and appropriate routing. The main.tf file uses a module called vpc to create these resources. The variables.tf file defines the variables needed for customization, and terraform.tfvars provides the actual values for those variables. The backend.tf file configures the remote state storage, and outputs.tf defines the outputs to be displayed after the deployment.
+    In summary, this Terraform configuration sets up a VPC in AWS with multiple subnets, an internet gateway, and appropriate routing. The main.tf file uses a module called vpc to create these resources. The variables.tf file defines the variables needed for customization, and terraform.tfvars provides the actual values for those variables. The backend.tf file configures the remote state storage, and outputs.tf defines the outputs to be displayed after the deployment.
